@@ -1,0 +1,17 @@
+Topic 1 : Demosaicing
+
+Part I : Test BUild-in Demosaicing Algorithms in Rawpy
+Folder : Difference Between Algorithms
+File : Demosaic_Algorithms_Analysis.ipynb
+Description : Test build-in demosaicing algorithms in rawpy using manually created images.
+              The test results of using natrual images are in folders 1 to 6.
+ 
+Part II : Hand Writing AHD demosaic algorithm
+Folder : AHD Algorithm
+File : image2binary.ipynb
+       binary2image.ipynb
+       AHD.c
+Description : Use image2binary.ipynb to read raw image from .dng file and save the raw data into 		      binary file (data).
+              Then use AHD.c to process raw data and save the processed data into another binary  		      file (Demosaic_Data).
+              Finally use binary2image.ipynb to postprocess the data and save it in .jpg format as 		      well as the images processed using Rawpy build-in demosaicing algorithms.
+
